@@ -10,7 +10,8 @@ requires-python = ">=3.11"
 dependencies = [
     "ortools (==9.12.4544)",
     "numpy (==2.2.5)",
-    "matplotlib (==3.10.1)"
+    "matplotlib (==3.10.1)",
+    "sympy (>=1.13.3,<2.0.0)"
 ]
 
 [tool.poetry]
