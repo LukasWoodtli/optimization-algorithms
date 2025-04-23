@@ -1,0 +1,23 @@
+[project]
+name = "optimization-algorithms"
+version = "0.1.0"
+description = "Examples for the book \"Optimization Algorithms\" by Alaa Khamis"
+authors = [
+    {name = "woodtli.lukas@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ortools (==9.12.4544)",
+    "numpy (==2.2.5)",
+    "matplotlib (==3.10.1)"
+]
+
+[tool.poetry]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
