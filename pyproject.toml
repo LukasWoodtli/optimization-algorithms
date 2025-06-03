@@ -11,10 +11,12 @@ dependencies = [
     "ortools (==9.12.4544)",
     "numpy (==2.2.5)",
     "matplotlib (==3.10.1)",
-    "sympy (>=1.13.3,<2.0.0)"
+    "sympy (>=1.13.3,<2.0.0)",
+    "scipy (==1.15.3)",
 ]
 
 [tool.poetry]
+package-mode = false
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.5"
